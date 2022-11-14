@@ -18,18 +18,29 @@ export const InputField: React.FC<{
   HandleChange?: any;
   val?: any;
   Handler?: any;
+  options?: any;
+  value?: any; 
+  setValue?: any;
+  setVal?: any;
 }> = ({
-   HandleChange, val, Handler
+   HandleChange, val, Handler, options, value, setValue, setVal
 }) => {
+
+  console.log(val)
 
   return (
     <Container>
-        <SelectCountry />
+        <SelectCountry 
+          options={options}
+          value={value}
+          setValue={setValue}
+          setVal={setVal}
+        />
             <Select 
               nameLab={"CPA"}
               place={"20 000"}
               message={"Cost per action"}
-              val={val.cpa}
+              val={val?.cpa != undefined ? val.cpa : 5}
               onChange={HandleChange('cpa')}
               name={"cpa"}
               meter={"$"} 
@@ -38,7 +49,7 @@ export const InputField: React.FC<{
               nameLab={"RS"}
               place={"50"}
               message={"Revenue Share"}
-              val={val.rs}
+              val={value?.rs}
               onChange={HandleChange('rs')}
               name={"rs"}
               meter={"%"} 
@@ -47,7 +58,7 @@ export const InputField: React.FC<{
               nameLab={"CR"}
               place={"40"}
               message={"Conversion rate"}
-              val={val.cr}
+              val={val?.cr}
               onChange={HandleChange('cr')}
               name={"cr"}
               meter={"%"} 
@@ -56,7 +67,7 @@ export const InputField: React.FC<{
               nameLab={"NGR"}
               place={"1230"}
               message={"Net Gaming Revenue"}
-              val={val.ngr}
+              val={val?.ngr}
               onChange={HandleChange('ngr')}
               name={"ngr"}
               meter={"$"} 
@@ -65,7 +76,7 @@ export const InputField: React.FC<{
               nameLab={"Total Frequency"}
               place={"2"}
               message={"The total frequency is the value obtained by adding up all search frequencies."}
-              val={val.tf}
+              val={val?.tf}
               onChange={HandleChange('tf')}
               name={"tf"}
               meter={"$"} 
@@ -74,7 +85,7 @@ export const InputField: React.FC<{
               nameLab={"Average Position"}
               place={"15"}
               message={"A relative ranking of the position of your site on Google, where 1 is the topmost position, 2 is the next position, and so on."}
-              val={val.ap}
+              val={val?.ap}
               onChange={HandleChange('ap')}
               name={"ap"}
             />

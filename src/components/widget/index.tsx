@@ -3,6 +3,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 import { InputField } from "../InputField";
 import { Speedometer } from "../speedometer";
+import Geo from '../../data/geo.json';
 
 
 const Container = styled.div`
@@ -19,6 +20,35 @@ ${tw`
 
 export const Widget: React.FC = () => {
 
+
+  const [value, setValue] = useState<any>({
+    value: '',
+    label: '',
+    cpa: '',
+    rs: '',
+    cr: '',
+    ngr: '',
+    tf: '',
+    ap: '',
+  })
+  const options: any = Geo.map(item => {{
+      return (
+        {
+          value: item.Code,
+          label: item.Country,
+          cpa: item.CPA,
+          rs: '40',
+          cr: item.CR,
+          ngr: item.NGR,
+          tf: '3',
+          ap: '13',
+        }
+      )
+    }})
+
+    
+
+    
   const [val, setVal] = useState<any>({
     cpa: '',
     rs: '',
@@ -36,6 +66,7 @@ export const Widget: React.FC = () => {
       ...prev,
       [fieldName]: fieldValue
     }));
+    console.log(val)
 };
 
 // Click on website
@@ -83,6 +114,10 @@ export const Widget: React.FC = () => {
           HandleChange={HandleChange}
           val={val}
           Handler={Handl}
+          options={options}
+          value={value}
+          setVal={setVal}
+          setValue={setValue}
         />
         <Speedometer 
         webSite={web}
