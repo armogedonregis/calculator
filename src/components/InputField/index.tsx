@@ -28,7 +28,7 @@ export const InputField: React.FC<{
             <Select 
               nameLab={"CPA"}
               place={"20 000"}
-              message={"Certified Public Accountant"}
+              message={"Cost per action"}
               val={val.cpa}
               onChange={HandleChange('cpa')}
               name={"cpa"}
@@ -37,7 +37,7 @@ export const InputField: React.FC<{
             <Select 
               nameLab={"RS"}
               place={"50"}
-              message={"RS"}
+              message={"Revenue Share"}
               val={val.rs}
               onChange={HandleChange('rs')}
               name={"rs"}
@@ -46,7 +46,7 @@ export const InputField: React.FC<{
             <Select 
               nameLab={"CR"}
               place={"40"}
-              message={"CR"}
+              message={"Conversion rate"}
               val={val.cr}
               onChange={HandleChange('cr')}
               name={"cr"}
@@ -55,7 +55,7 @@ export const InputField: React.FC<{
             <Select 
               nameLab={"NGR"}
               place={"1230"}
-              message={"NGR"}
+              message={"Net Gaming Revenue"}
               val={val.ngr}
               onChange={HandleChange('ngr')}
               name={"ngr"}
@@ -64,7 +64,7 @@ export const InputField: React.FC<{
             <Select 
               nameLab={"Total Frequency"}
               place={"2"}
-              message={"TF"}
+              message={"The total frequency is the value obtained by adding up all search frequencies."}
               val={val.tf}
               onChange={HandleChange('tf')}
               name={"tf"}
@@ -73,7 +73,7 @@ export const InputField: React.FC<{
             <Select 
               nameLab={"Average Position"}
               place={"15"}
-              message={"AP"}
+              message={"A relative ranking of the position of your site on Google, where 1 is the topmost position, 2 is the next position, and so on."}
               val={val.ap}
               onChange={HandleChange('ap')}
               name={"ap"}

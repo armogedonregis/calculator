@@ -13,7 +13,7 @@ ${tw`
 const Lab = styled.label`
 ${tw`
     lg:text-xl
-    mb-[2px]
+    mb-[4px]
     uppercase
     text-sm
     text-gray

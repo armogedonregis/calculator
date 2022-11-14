@@ -99,7 +99,7 @@ export const Speedometer: React.FC<{
 
 <path d="M215.056 378.123L223.205 386.136L318.812 295.023L304.551 281L215.056 378.123Z" fill="url(#paint0_linear_79_12468)"/>
           </g>
-<path d="M408.289 404.545C428.714 383.741 442.532 357.362 448.006 328.725C453.48 300.088 450.366 270.472 439.054 243.601C427.742 216.73 408.738 193.803 384.432 177.702C360.125 161.602 331.601 153.048 302.446 153.114C273.291 153.181 244.806 161.866 220.574 178.077C196.341 194.289 177.442 217.303 166.254 244.226C155.065 271.148 152.086 300.778 157.691 329.389C163.296 358.001 177.235 384.316 197.755 405.027" stroke="#5C7EB3" stroke-width="2"/>
+<path d="M408.289 404.545C428.714 383.741 442.532 357.362 448.006 328.725C453.48 300.088 450.366 270.472 439.054 243.601C427.742 216.73 408.738 193.803 384.432 177.702C360.125 161.602 331.601 153.048 302.446 153.114C273.291 153.181 244.806 161.866 220.574 178.077C196.341 194.289 177.442 217.303 166.254 244.226C155.065 271.148 152.086 300.778 157.691 329.389C163.296 358.001 177.235 384.316 197.755 405.027" stroke="#5C7EB3" strokeWidth="2"/>
 <path d="M394.092 389.46C411.499 371.729 423.276 349.248 427.942 324.843C432.607 300.438 429.953 275.198 420.314 252.298C410.674 229.398 394.479 209.859 373.765 196.138C353.05 182.418 328.741 175.128 303.895 175.185C279.048 175.243 254.772 182.645 234.12 196.461C213.468 210.277 197.362 229.891 187.826 252.835C178.29 275.78 175.751 301.032 180.527 325.415C185.303 349.798 197.182 372.225 214.669 389.875" stroke="#5C7EB3"/>
 <path d="M302 147H304V174.685L302 174.739L302 147Z" fill="#71FBE4"/>
 <rect x="458" y="288" width="2" height="28" transform="rotate(90 458 288)" fill="#71FBE4"/>
@@ -136,8 +136,8 @@ export const Speedometer: React.FC<{
 <path d="M189.157 122.133L196.045 123.733L197.644 116.845L189.157 122.133Z" fill="#5C7EB3"/>
         </g>
 <defs>
-<filter id="filter0_d_79_12468" x="142.144" y="399.41" width="68.5841" height="68.371" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<filter id="filter0_d_79_12468" x="142.144" y="399.41" width="68.5841" height="68.371" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dx="4" dy="4"/>
 <feGaussianBlur stdDeviation="10"/>
@@ -147,19 +147,19 @@ export const Speedometer: React.FC<{
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_79_12468" result="shape"/>
 </filter>
 <linearGradient id="paint0_linear_79_12468" x1="219.13" y1="382.13" x2="311.681" y2="288.012" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.8"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
+<stop stopColor="white" stopOpacity="0.8"/>
+<stop offset="1" stopColor="white" stopOpacity="0"/>
 </linearGradient>
 <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0.21796" stop-color="#EC3768"/>
-          <stop offset="0.619698" stop-color="#B332B4"/>
-          <stop offset="0.870076" stop-color="#7F2DFB"/>
-          <stop offset="1" stop-color="#71FBE4"/>
+          <stop offset="0.21796" stopColor="#EC3768"/>
+          <stop offset="0.619698" stopColor="#B332B4"/>
+          <stop offset="0.870076" stopColor="#7F2DFB"/>
+          <stop offset="1" stopColor="#71FBE4"/>
           </linearGradient>
 </defs>
  <g>
-<text fill="white" font-family="RFDewi" font-size="36" font-weight="400" x="300" y="428" style={{textAnchor: "middle"}}>$ {Math.floor(percent)}</text>
-<text fill="#71FBE4" font-family="RFDewiExpanded" font-size="18" font-weight="700" x="300" y="454" style={{textAnchor: "middle"}}>REVENUE</text>
+<text fill="white" fontFamily="RFDewi" fontSize="36" fontWeight="400" x="300" y="428" style={{textAnchor: "middle"}}>$ {Math.floor(percent)}</text>
+<text fill="#71FBE4" fontFamily="RFDewiExpanded" fontSize="18" fontWeight="700" x="300" y="454" style={{textAnchor: "middle"}}>REVENUE</text>
  </g>
  
 </svg>
