@@ -8,9 +8,13 @@ ${tw`
     w-[36px]
     h-[36px]
     lg:h-[initial]
+    duration-200
 `}
 :hover rect {
     fill: #71FBE4;
+}
+:active rect {
+    fill: #A79BB1;
 }
 `;
 

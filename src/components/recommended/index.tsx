@@ -35,8 +35,7 @@ const CardContainer = styled.div`
 ${tw`
     flex
     flex-wrap
-    justify-center
-    lg:mr-[-40px]
+    justify-between
     lg:mb-[62px]
     mb-[16px]
 `}

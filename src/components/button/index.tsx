@@ -1,3 +1,4 @@
+import { MouseEventHandler } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
@@ -12,15 +13,18 @@ ${tw`
     lg:text-xl
     text-sm
     hover:bg-neon-light
+    active:bg-neon-dark
+    duration-200
 `}
 `;
 
 export const Button: React.FC<{
     children?: string;
     className?: string;
-}> = ({children, className}) => {
+    onClick?: MouseEventHandler<HTMLButtonElement>;
+}> = ({children, className, onClick}) => {
 
   return (
-    <Container className={className}>{children}</Container>
+    <Container onClick={onClick} className={className}>{children}</Container>
   );
 }

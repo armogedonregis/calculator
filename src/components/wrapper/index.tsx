@@ -6,10 +6,10 @@ export const Wrapper = styled.div`
     width: 0px;
   }
   ${tw`
-  lg:max-w-[1920px]
+  lg:max-w-[1440px]
   w-screen
   overflow-y-scroll
-  lg:px-[322px]
+  lg:px-[32px]
   px-[16px]
   mx-auto
   relative z-50

@@ -7,13 +7,16 @@ const items = [
         link: "Follow Us"
     },
     {
-        link: "Facebook"
+        link: "Facebook",
+        href: "https://www.facebook.com/alfaleads.net"
     },
     {
-        link: "Twitter"
+        link: "Twitter",
+        href: "https://twitter.com/alfaleads"
     },
     {
-        link: "Instagram"
+        link: "Instagram",
+        href: "https://www.instagram.com/alfaleads_ww"
     },
     {
         link: "Discord"
@@ -64,7 +67,7 @@ ${tw`
 
 const LogoIcon = styled.img`
 ${tw`
-    lg:
+    
 `}
 `;
 
@@ -82,9 +85,22 @@ export const Footer: React.FC = () => {
     <Container>
         <List>
             {items.map((item, index) => {
-                return (
-                    <Item key={index}>{item.link}</Item>
-                )
+                if(item.href != null) {
+                    return (
+                        <Item>
+                            <a 
+                            key={index} 
+                            href={item.href} target="_blank"
+                            >
+                            {item.link}
+                            </a>
+                        </Item>
+                    )
+                } else {
+                    return (
+                        <Item key={index}>{item.link}</Item>
+                    )
+                }
             })}
         </List>
         <List>

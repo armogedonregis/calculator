@@ -69,9 +69,9 @@ export const Service: React.FC = () => {
         <Title>do you like the service?</Title>
         <PostTitle>Share your opinion in our Social Media</PostTitle>
         <IconContainer>
-            <Facebook />
-            <Twitter />
-            <Telegram />
+            <a href="https://www.facebook.com/alfaleads.net" target="_blank"><Facebook /></a>
+            <a href="https://www.instagram.com/alfaleads_ww" target="_blank"><Twitter /></a>
+            <a href="https://twitter.com/alfaleads" target="_blank"><Telegram /></a>
         </IconContainer>
     </Container>
   );

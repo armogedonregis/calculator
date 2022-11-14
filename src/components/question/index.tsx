@@ -33,6 +33,9 @@ outline: none;
 :focus {
     border: 1px solid #71FBE4;
 }
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
 ${tw`
     block w-full
     lg:text-xl

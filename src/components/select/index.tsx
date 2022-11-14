@@ -55,6 +55,16 @@ outline: none;
 :focus {
     border: 1px solid #71FBE4;
 }
+:focus::-webkit-input-placeholder {
+  color: transparent
+}
+::placeholder {
+    color: white;
+}
+::-webkit-outer-spin-button,
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
 ${tw`
     block 
     lg:w-[412px]
@@ -70,7 +80,13 @@ ${tw`
 export const Select: React.FC<{
     nameLab?: string;
     meter?: string;
-}> = ({ nameLab, meter }) => {
+    place?: string;
+    message?: string;
+    val?: number;
+    name?: string;
+    onChange?: any;
+}> = ({ nameLab, meter, 
+    place, message, val, name, onChange }) => {
 
   return (
     <Container>
@@ -80,7 +96,7 @@ export const Select: React.FC<{
 
             <InfoIcon src="./assets/vector/info.svg" alt="" />
             <div className="absolute bottom-0 flex flex-col items-center hidden mb-6 group-hover:flex">
-			<span className="relative z-10 p-2 w-full text-sm leading-none whitespace-nowrap text-white font-bold rounded-[4px] bg-fiol">Certified Public Accountant</span>
+			<span className="relative z-10 p-2 w-full text-sm leading-none whitespace-nowrap text-white font-bold rounded-[4px] bg-fiol">{message}</span>
 			<div className="w-3 h-3 -mt-2 rotate-45 bg-fiol"></div>
             </div>
 		</div>
@@ -90,8 +106,12 @@ export const Select: React.FC<{
                 <span>{meter}</span>
             </Dollar>
             <Input
-            className={`${meter != null ? "pl-[51px] pl-[37px]" : "pl-[20px] lg:pl-[24px]"}`}
-            type="text"
+            className={`${meter != null ? "lg:pl-[51px] pl-[37px]" : "pl-[20px] lg:pl-[24px]"}`}
+            type="number"
+            name={name}
+            value={val}
+            onChange={(e: any) => onChange(e.target.value)}
+            placeholder={place}
             />
         </Content>
     </Container>

@@ -11,7 +11,6 @@ ${tw`
     lg:w-[398px]
     w-full
     lg:h-[255px]
-    lg:mr-[40px]
     lg:mb-[40px]
     mb-[8px]
 `}
