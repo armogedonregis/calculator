@@ -89,7 +89,7 @@ export const Footer: React.FC = () => {
                     return (
                         <Item>
                             <a 
-                            key={index} 
+                            key={index + 1} 
                             href={item.href} target="_blank"
                             >
                             {item.link}
@@ -98,7 +98,7 @@ export const Footer: React.FC = () => {
                     )
                 } else {
                     return (
-                        <Item key={index}>{item.link}</Item>
+                        <Item key={index + 2}>{item.link}</Item>
                     )
                 }
             })}
