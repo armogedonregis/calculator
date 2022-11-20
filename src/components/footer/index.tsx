@@ -2,27 +2,6 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 
-const items = [
-    {
-        link: "Follow Us"
-    },
-    {
-        link: "Facebook",
-        href: "https://www.facebook.com/alfaleads.net"
-    },
-    {
-        link: "Twitter",
-        href: "https://twitter.com/alfaleads"
-    },
-    {
-        link: "Instagram",
-        href: "https://www.instagram.com/alfaleads_ww"
-    },
-    {
-        link: "Discord"
-    }
-]
-
 const Container = styled.footer`
 ${tw`
     lg:mb-[140px]
@@ -84,24 +63,11 @@ export const Footer: React.FC = () => {
   return (
     <Container>
         <List>
-            {items.map((item, index) => {
-                if(item.href != null) {
-                    return (
-                        <Item>
-                            <a 
-                            key={index + 1} 
-                            href={item.href} target="_blank"
-                            >
-                            {item.link}
-                            </a>
-                        </Item>
-                    )
-                } else {
-                    return (
-                        <Item key={index + 2}>{item.link}</Item>
-                    )
-                }
-            })}
+            <Item>Follow Us</Item>
+            <Item><a href="https://www.facebook.com/alfaleads.net" target="_blank">Facebook</a></Item>
+            <Item><a href="https://twitter.com/alfaleads" target="_blank">Twitter</a></Item>
+            <Item><a href="https://www.instagram.com/alfaleads_ww" target="_blank">Instagram</a></Item>
+            <Item>Discord</Item>
         </List>
         <List>
             <Item>Contact Us</Item>

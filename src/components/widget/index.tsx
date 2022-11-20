@@ -159,24 +159,41 @@ export const Widget: React.FC = () => {
     }
   }
 
-  const Handl = () => {
+  const func1 = async () => {
     setWeb(
       WebSum(val.ap)
     );
+  };
+
+  const func2 = async () => {
     setProduct(
       ProductSum(web)
-    )
+    );
+  };
+
+  const func3 = async () => {
     setFd(
       FDSum()
-    )
+    );
+  };
+
+  const func4 = async () => {
     setDeal(
       DealType()
-    )
+    );
+  };
+
+  const func5 = async () => {
     setRev(
       Revenue()
-    )
-  }
+    );
+  };
 
+  const Handl = async () => {
+      return await Promise.all([
+        func1(), func2(), func3(), func4(), func5()
+      ]);
+  }
 
   return (
     <Container>
