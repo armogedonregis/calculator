@@ -22,11 +22,13 @@ export const InputField: React.FC<{
   value?: any; 
   setValue?: any;
   setVal?: any;
+  valSlide?: number;
+  HandleSlide?: any;
 }> = ({
-   HandleChange, val, Handler, options, value, setValue, setVal
+   HandleChange, val, Handler, options, value, setValue, setVal,
+   valSlide, HandleSlide
 }) => {
 
-  console.log(val)
 
   return (
     <Container>
@@ -40,7 +42,7 @@ export const InputField: React.FC<{
               nameLab={"CPA"}
               place={"20 000"}
               message={"Cost per action"}
-              val={val?.cpa != undefined ? val.cpa : 5}
+              val={val.cpa}
               onChange={HandleChange('cpa')}
               name={"cpa"}
               meter={"$"} 
@@ -49,7 +51,7 @@ export const InputField: React.FC<{
               nameLab={"RS"}
               place={"50"}
               message={"Revenue Share"}
-              val={value?.rs}
+              val={val?.rs}
               onChange={HandleChange('rs')}
               name={"rs"}
               meter={"%"} 
@@ -89,7 +91,10 @@ export const InputField: React.FC<{
               onChange={HandleChange('ap')}
               name={"ap"}
             />
-        <Slider />
+        <Slider
+          valSlide={valSlide}
+          HandleSlide={HandleSlide}
+        />
         <Button
           onClick={Handler}
           className="block ml-auto">Calculate</Button>

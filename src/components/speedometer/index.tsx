@@ -53,12 +53,15 @@ ${tw`
 
 
 export const Speedometer: React.FC<{
-  webSite?: number;
-  webSite2?: number;
+  rev?: number;
+  deal?: string;
+  fd?: number;
+  product?: number;
+  web?: number;
 }> = ({
-  webSite, webSite2
+  rev, deal, fd, product, web
 }) => {
-  const num = webSite != undefined ? webSite * 100 / 12000 : 100;
+  const num = rev != undefined ? rev : 100;
   const radius = 203;
   const percent = num;
   const strokeWidth = radius * 0.2;
@@ -168,14 +171,14 @@ export const Speedometer: React.FC<{
           <Content>
             <Title>Deal Type</Title>
             <Title>FD Per Month:</Title>
-            <Title>Click On The Webite</Title>
             <Title>Click On The Product</Title>
+            <Title>Click On The Webite</Title>
           </Content>
           <Content>
-            <Text>RevShare</Text>
-            <Text>{webSite}</Text>
-            <Text>{webSite2}</Text>
-            <Text>23</Text>
+            <Text>{deal}</Text>
+            <Text>{fd}</Text>
+            <Text>{product}</Text>
+            <Text>{web}</Text>
           </Content>
         </TextContainer>
         <Text post>In this calculation were used such 

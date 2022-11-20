@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 
@@ -122,14 +121,12 @@ ${tw`
 `}
 `;
 
-export const Slider: React.FC = () => {
-
-const [val, setVal] = useState<number>(3);
-
-const HandleChange = (e: { target: { value: any; }; }) => {
-    setVal(e.target.value);
-};
-
+export const Slider: React.FC<{
+  valSlide?: number;
+  HandleSlide?: any;
+}> = ({
+  valSlide, HandleSlide
+}) => {
 
   return (
     <Container>
@@ -140,8 +137,8 @@ const HandleChange = (e: { target: { value: any; }; }) => {
                 min={1}
                 max={5}
                 step={1}
-                onChange={HandleChange} 
-                value={val} 
+                onChange={HandleSlide} 
+                value={valSlide} 
             />
             <div className="w-full flex justify-between text-xl font-normal font-RFD">
               <Span className="ml-[4px] before:left-[-4.3px]">1</Span>

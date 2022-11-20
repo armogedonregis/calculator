@@ -27,7 +27,7 @@ const customStyles = {
   option: (provided: any) => ({
     ...provided,
     borderColor: 'transparent',
-    backgroundColor: 'transparent',
+    backgroundColor: 'transparent'
   }),
   menu: (provided: any) => ({
     ...provided,
@@ -54,7 +54,7 @@ const customStyles = {
   singleValue: (provided: any) => ({
     ...provided,
     color: 'white'
-  })
+  }),
 }
 
 export const SelectCountry: React.FC<{
