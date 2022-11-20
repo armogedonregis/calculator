@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
+import Flag from 'react-world-flags';
 import { InputField } from "../InputField";
 import { Speedometer } from "../speedometer";
+import Geo from '../../data/geo.json';
 
 
 const Container = styled.div`
@@ -19,6 +21,40 @@ ${tw`
 
 export const Widget: React.FC = () => {
 
+
+  const [value, setValue] = useState<any>({
+    value: '',
+    label: '',
+    cpa: '',
+    rs: '',
+    cr: '',
+    ngr: '',
+    tf: '',
+    ap: '',
+  })
+  const options: any = Geo.map(item => {{
+      return (
+        {
+          value: item.Code,
+          label: (
+            <div className="flex ml-[8px]">
+              <Flag className="mr-[16px]" code={item.Code} height={16} width={24} />
+              <span>{item.Country} ({item.Code})</span>
+            </div>
+          ),
+          cpa: item.CPA,
+          rs: '40',
+          cr: item.CR,
+          ngr: item.NGR,
+          tf: '3',
+          ap: '13',
+        }
+      )
+    }})
+
+    
+
+    
   const [val, setVal] = useState<any>({
     cpa: '',
     rs: '',
@@ -27,9 +63,20 @@ export const Widget: React.FC = () => {
     tf: '',
     ap: '',
   });
+
+  // Slider 
+
+  const [valSlide, setValSlide] = useState<number>(3);
+
+  const HandleSlide = (e: { target: { value: number; }; }) => {
+      setValSlide(e.target.value);
+  };
   
-  const [web, setWeb] = useState<number>(23);
-  const [web2, setWeb2] = useState<number>();
+  const [rev, setRev] = useState<number>();
+  const [deal, setDeal] = useState<string>('RevShare');
+  const [fd, setFd] = useState<number>(23);
+  const [product, setProduct] = useState<number>(1);
+  const [web, setWeb] = useState<number>(3);
 
   const HandleChange = (fieldName: number) => (fieldValue: any) => {
     setVal((prev: any) => ({
@@ -55,25 +102,71 @@ export const Widget: React.FC = () => {
 
   // FD per month
 
-  const FDSum = (x: number) => {
-    let num = x * 0.83
+  const FDSum = () => {
+    const ValueFd = () => {
+      switch (+valSlide) {
+        case 1: 
+          return 0.05;
+        case 2:
+          return 0.15;
+        case 4:
+          return 0.6;
+        case 5:
+          return 1;
+        default:
+          return 0.3;
+        }
+      }
+    let num1 = 0.86 / 100 * product * ValueFd();
+    let num = Math.floor(num1)
     return num;
   }
 
-  // Revenue
+  // DealType
 
-  const RevSum = (x: number) => {
-    
+  const DealType = () => {
+    if (val.cpa === '' && val.rs != '') {
+      return 'RevShare'
+    } else if (val.cpa != '' && val.rs === '') {
+      return 'CPA'
+    } else if (val.cpa != '' && val.rs != '') {
+      return 'Hybrid'
+    } else {
+      return 'Нет данных'
+    }
   }
   
+  // Revenue
+
+  const Revenue = () => {
+    if (deal === 'CPA') {
+      return val.cpa * fd
+    } else if (deal === 'RevShare') {
+      return val.rs * val.ngr * fd * 5.44
+    } else if (deal === 'Hybrid') {
+      return val.cpa * fd + val.rs / 100 * val.ngr * fd * 5.44
+    } else {
+      return val.cpa * fd
+    }
+  }
 
   const Handl = () => {
     setWeb(
       WebSum(val.ap)
     );
-    setWeb2(
+    setProduct(
       ProductSum(web)
     )
+    setFd(
+      FDSum()
+    )
+    setDeal(
+      DealType()
+    )
+    setRev(
+      Revenue()
+    )
+    console.log(Revenue())
   }
 
 
@@ -83,10 +176,19 @@ export const Widget: React.FC = () => {
           HandleChange={HandleChange}
           val={val}
           Handler={Handl}
+          options={options}
+          value={value}
+          setVal={setVal}
+          setValue={setValue}
+          valSlide={valSlide}
+          HandleSlide={HandleSlide}
         />
         <Speedometer 
-        webSite={web}
-        webSite2={web2}
+        rev={rev}
+        deal={deal}
+        fd={fd}
+        product={product}
+        web={web}
         />
     </Container>
   );

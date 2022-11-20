@@ -3,6 +3,7 @@ import tw from "twin.macro";
 import React, { useState, useMemo } from 'react';
 import Select from 'react-select';
 import countryList from 'react-select-country-list';
+import Geo from '../../data/geo.json';
 
 const Container = styled.div`
 ${tw`
@@ -26,7 +27,7 @@ const customStyles = {
   option: (provided: any) => ({
     ...provided,
     borderColor: 'transparent',
-    backgroundColor: 'transparent',
+    backgroundColor: 'transparent'
   }),
   menu: (provided: any) => ({
     ...provided,
@@ -53,17 +54,25 @@ const customStyles = {
   singleValue: (provided: any) => ({
     ...provided,
     color: 'white'
-  })
+  }),
 }
 
-export const SelectCountry: React.FC = () => {
-    
-    const [value, setValue] = useState('')
-    const options: any = useMemo(() => countryList().getData(), [])
-      
-    const changeHandler = (value: any) => {
-          setValue(value)
-    }
+export const SelectCountry: React.FC<{
+  options?: any;
+  value?: any;
+  setValue?: any;
+  setVal?: any;
+}> = ({ options, value, setValue, setVal }) => {
+  
+  const changeHandler = (value: any) => {
+    setValue((value: any) => {
+      value
+    })
+    console.log(value)
+    setVal((value: any) => {
+      value
+    })
+  }
 
   return (
     <Container>

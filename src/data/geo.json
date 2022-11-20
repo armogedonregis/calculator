@@ -1,0 +1,2112 @@
+[
+        {
+            "id": "1",
+            "Country": "Luxembourg",
+            "Code": "LU",
+            "value": "118,360",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "2",
+            "Country": "Singapore",
+            "Code": "SG",
+            "value": "98,526",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "3",
+            "Country": "Ireland",
+            "Code": "IE",
+            "value": "93,612",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "4",
+            "Country": "Qatar",
+            "Code": "QA",
+            "value": "89,949",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "5",
+            "Country": "Bermuda",
+            "Code": "BM",
+            "value": "85,264",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "6",
+            "Country": "Cayman Islands",
+            "Code": "KY",
+            "value": "76,748",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "7",
+            "Country": "Switzerland",
+            "Code": "CH",
+            "value": "71,352",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "8",
+            "Country": "United Arab Emirates",
+            "Code": "AE",
+            "value": "69,958",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "9",
+            "Country": "Brunei Darussalam",
+            "Code": "BN",
+            "value": "65,662",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "10",
+            "Country": "United States",
+            "Code": "US",
+            "value": "63,544",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "11",
+            "Country": "San Marino",
+            "Code": "SM",
+            "value": "63,420",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "12",
+            "Country": "Norway",
+            "Code": "NO",
+            "value": "63,198",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "13",
+            "Country": "Denmark",
+            "Code": "DK",
+            "value": "60,399",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "14",
+            "Country": "Hong Kong",
+            "Code": "HK",
+            "value": "59,238",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "15",
+            "Country": "Netherlands",
+            "Code": "NL",
+            "value": "59,229",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "16",
+            "Country": "Macao SAR China",
+            "Code": "MO",
+            "value": "57,807",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "17",
+            "Country": "Iceland",
+            "Code": "IS",
+            "value": "55,216",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "18",
+            "Country": "Austria",
+            "Code": "AT",
+            "value": "55,098",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "19",
+            "Country": "Sweden",
+            "Code": "SE",
+            "value": "54,563",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "20",
+            "Country": "Germany",
+            "Code": "DE",
+            "value": "53,694",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "21",
+            "Country": "Australia",
+            "Code": "AU",
+            "value": "52,518",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "22",
+            "Country": "Belgium",
+            "Code": "BE",
+            "value": "51,968",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "23",
+            "Country": "Kuwait",
+            "Code": "KW",
+            "value": "51,962",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "24",
+            "Country": "Finland",
+            "Code": "FI",
+            "value": "51,090",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "25",
+            "Country": "Canada",
+            "Code": "CA",
+            "value": "48,073",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "26",
+            "Country": "Saudi Arabia",
+            "Code": "SA",
+            "value": "46,763",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "27",
+            "Country": "France",
+            "Code": "FR",
+            "value": "46,227",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "28",
+            "Country": "United Kingdom",
+            "Code": "GB",
+            "value": "44,916",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "29",
+            "Country": "New Zealand",
+            "Code": "NZ",
+            "value": "44,252",
+            "Tier": "1",
+            "CPA": "290.04",
+            "NGR": "330.32",
+            "CR": "0.86%"
+        },
+        {
+            "id": "30",
+            "Country": "Bahrain",
+            "Code": "BH",
+            "value": "43,181",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "31",
+            "Country": "Korea",
+            "Code": "KR",
+            "value": "43,124",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "32",
+            "Country": "Malta",
+            "Code": "MT",
+            "value": "42,640",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "33",
+            "Country": "Japan",
+            "Code": "JP",
+            "value": "42,197",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "34",
+            "Country": "Israel",
+            "Code": "IL",
+            "value": "41,855",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "35",
+            "Country": "Italy",
+            "Code": "IT",
+            "value": "41,840",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "36",
+            "Country": "Czech Republic",
+            "Code": "CZ",
+            "value": "41,737",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "37",
+            "Country": "Slovenia",
+            "Code": "SI",
+            "value": "39,593",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "38",
+            "Country": "Aruba",
+            "Code": "AW",
+            "value": "38,897",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "39",
+            "Country": "Lithuania",
+            "Code": "LT",
+            "value": "38,735",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "40",
+            "Country": "Cyprus",
+            "Code": "CY",
+            "value": "38,458",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "41",
+            "Country": "Estonia",
+            "Code": "EE",
+            "value": "38,395",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "42",
+            "Country": "Spain",
+            "Code": "ES",
+            "value": "38,335",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "43",
+            "Country": "Sint Maarten (Dutch part)",
+            "Code": "SX",
+            "value": "36,191",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "44",
+            "Country": "Puerto Rico",
+            "Code": "PR",
+            "value": "35,279",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "45",
+            "Country": "Portugal",
+            "Code": "PT",
+            "value": "34,496",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "46",
+            "Country": "Poland",
+            "Code": "PL",
+            "value": "34,265",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "47",
+            "Country": "Hungary",
+            "Code": "HU",
+            "value": "33,084",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "48",
+            "Country": "Bahamas The",
+            "Code": "BS",
+            "value": "32,454",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "49",
+            "Country": "Latvia",
+            "Code": "LV",
+            "value": "32,019",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "50",
+            "Country": "Romania",
+            "Code": "RO",
+            "value": "31,946",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "51",
+            "Country": "Slovakia",
+            "Code": "SK",
+            "value": "31,832",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "52",
+            "Country": "Croatia",
+            "Code": "HR",
+            "value": "28,504",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "53",
+            "Country": "Greece",
+            "Code": "GR",
+            "value": "28,464",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "54",
+            "Country": "Oman",
+            "Code": "OM",
+            "value": "28,449",
+            "Tier": "2",
+            "CPA": "74.89",
+            "NGR": "34.82",
+            "CR": "1.72%"
+        },
+        {
+            "id": "55",
+            "Country": "Russian Federation",
+            "Code": "RU",
+            "value": "28,213",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "56",
+            "Country": "Turkey",
+            "Code": "TR",
+            "value": "28,120",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "57",
+            "Country": "Malaysia",
+            "Code": "MY",
+            "value": "27,887",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "58",
+            "Country": "Panama",
+            "Code": "PA",
+            "value": "26,776",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "59",
+            "Country": "Kazakhstan",
+            "Code": "KZ",
+            "value": "26,729",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "60",
+            "Country": "Seychelles",
+            "Code": "SC",
+            "value": "25,700",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "61",
+            "Country": "Curacao",
+            "Code": "CW",
+            "value": "25,530",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "62",
+            "Country": "Chile",
+            "Code": "CL",
+            "value": "25,068",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "63",
+            "Country": "Trinidad and Tobago",
+            "Code": "TT",
+            "value": "25,031",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "64",
+            "Country": "St, Kitts and Nevis",
+            "Code": "KN",
+            "value": "24,537",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "65",
+            "Country": "Bulgaria",
+            "Code": "BG",
+            "value": "24,367",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "66",
+            "Country": "Uruguay",
+            "Code": "UY",
+            "value": "22,795",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "67",
+            "Country": "Turks and Caicos Islands",
+            "Code": "TC",
+            "value": "22,282",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "68",
+            "Country": "Costa Rica",
+            "Code": "CR",
+            "value": "21,032",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "69",
+            "Country": "Argentina",
+            "Code": "AR",
+            "value": "20,768",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "70",
+            "Country": "Montenegro",
+            "Code": "ME",
+            "value": "20,567",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "71",
+            "Country": "Mauritius",
+            "Code": "MU",
+            "value": "20,539",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "72",
+            "Country": "Belarus",
+            "Code": "BY",
+            "value": "20,200",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "73",
+            "Country": "Guyana",
+            "Code": "GY",
+            "value": "19,706",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "74",
+            "Country": "Serbia",
+            "Code": "RS",
+            "value": "19,231",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "75",
+            "Country": "Antigua and Barbuda",
+            "Code": "AG",
+            "value": "18,942",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "76",
+            "Country": "Mexico",
+            "Code": "MX",
+            "value": "18,833",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "77",
+            "Country": "Palau",
+            "Code": "PW",
+            "value": "18,316",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "78",
+            "Country": "Thailand",
+            "Code": "TH",
+            "value": "18,236",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "79",
+            "Country": "Equatorial Guinea",
+            "Code": "GQ",
+            "value": "17,942",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "80",
+            "Country": "Dominican Republic",
+            "Code": "DO",
+            "value": "17,937",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "81",
+            "Country": "Venezuela",
+            "Code": "VE",
+            "value": "17,528",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "82",
+            "Country": "China",
+            "Code": "CN",
+            "value": "17,312",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "83",
+            "Country": "Suriname",
+            "Code": "SR",
+            "value": "17,016",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "84",
+            "Country": "North Macedonia",
+            "Code": "MK",
+            "value": "16,927",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "85",
+            "Country": "Botswana",
+            "Code": "BW",
+            "value": "16,921",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "86",
+            "Country": "Turkmenistan",
+            "Code": "TM",
+            "value": "16,196",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "87",
+            "Country": "Grenada",
+            "Code": "GD",
+            "value": "15,893",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "88",
+            "Country": "Bosnia and Herzegovina",
+            "Code": "BA",
+            "value": "15,612",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "89",
+            "Country": "Gabon",
+            "Code": "GA",
+            "value": "15,191",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "90",
+            "Country": "Georgia",
+            "Code": "GE",
+            "value": "14,863",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "91",
+            "Country": "Brazil",
+            "Code": "BR",
+            "value": "14,836",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "92",
+            "Country": "Colombia",
+            "Code": "CO",
+            "value": "14,565",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "93",
+            "Country": "Azerbaijan",
+            "Code": "AZ",
+            "value": "14,452",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "94",
+            "Country": "Nauru",
+            "Code": "NR",
+            "value": "14,100",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "95",
+            "Country": "Albania",
+            "Code": "AL",
+            "value": "13,818",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "96",
+            "Country": "Maldives",
+            "Code": "MV",
+            "value": "13,766",
+            "Tier": "2.5",
+            "CPA": "38.05",
+            "NGR": "11.30",
+            "CR": "2.15%"
+        },
+        {
+            "id": "97",
+            "Country": "Barbados",
+            "Code": "BB",
+            "value": "13,577",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "98",
+            "Country": "Armenia",
+            "Code": "AM",
+            "value": "13,284",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "99",
+            "Country": "Sri Lanka",
+            "Code": "LK",
+            "value": "13,225",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "100",
+            "Country": "Iran Islamic Rep,",
+            "Code": "IR",
+            "value": "13,116",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "101",
+            "Country": "Ukraine",
+            "Code": "UA",
+            "value": "13,057",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "102",
+            "Country": "Paraguay",
+            "Code": "PY",
+            "value": "13,013",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "103",
+            "Country": "Moldova",
+            "Code": "MD",
+            "value": "13,002",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "104",
+            "Country": "St, Lucia",
+            "Code": "LC",
+            "value": "12,944",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "105",
+            "Country": "St, Vincent and the Grenadines",
+            "Code": "VC",
+            "value": "12,770",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "106",
+            "Country": "Egypt Arab Rep,",
+            "Code": "EG",
+            "value": "12,608",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "107",
+            "Country": "Lebanon",
+            "Code": "LB",
+            "value": "12,289",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "108",
+            "Country": "Mongolia",
+            "Code": "MN",
+            "value": "12,101",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "109",
+            "Country": "South Africa",
+            "Code": "ZA",
+            "value": "12,096",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "110",
+            "Country": "Indonesia",
+            "Code": "ID",
+            "value": "12,074",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "111",
+            "Country": "Peru",
+            "Code": "PE",
+            "value": "11,879",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "112",
+            "Country": "Fiji",
+            "Code": "FJ",
+            "value": "11,601",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "113",
+            "Country": "Bhutan",
+            "Code": "BT",
+            "value": "11,508",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "114",
+            "Country": "Kosovo",
+            "value": "11,368",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "115",
+            "Country": "Algeria",
+            "Code": "DZ",
+            "value": "11,268",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "116",
+            "Country": "Ecuador",
+            "Code": "EC",
+            "value": "10,896",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "117",
+            "Country": "Libya",
+            "Code": "LY",
+            "value": "10,847",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "118",
+            "Country": "Dominica",
+            "Code": "DM",
+            "value": "10,435",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "119",
+            "Country": "Jordan",
+            "Code": "JO",
+            "value": "10,356",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "120",
+            "Country": "Tunisia",
+            "Code": "TN",
+            "value": "10,262",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "121",
+            "Country": "Iraq",
+            "Code": "IQ",
+            "value": "9,764",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "122",
+            "Country": "Namibia",
+            "Code": "NA",
+            "value": "9,382",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "123",
+            "Country": "Jamaica",
+            "Code": "JM",
+            "value": "9,222",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "124",
+            "Country": "Guatemala",
+            "Code": "GT",
+            "value": "8,854",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "125",
+            "Country": "Eswatini",
+            "Code": "SZ",
+            "value": "8,854",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "126",
+            "Country": "Vietnam",
+            "Code": "VN",
+            "value": "8,651",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "127",
+            "Country": "El Salvador",
+            "Code": "SV",
+            "value": "8,499",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "128",
+            "Country": "Philippines",
+            "Code": "PH",
+            "value": "8,390",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "129",
+            "Country": "Bolivia",
+            "Code": "BO",
+            "value": "8,367",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "130",
+            "Country": "Lao People's Democratic Republic",
+            "Code": "LA",
+            "value": "8,235",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "131",
+            "Country": "Uzbekistan",
+            "Code": "UZ",
+            "value": "7,378",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "132",
+            "Country": "Morocco",
+            "Code": "MA",
+            "value": "7,296",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "133",
+            "Country": "Samoa",
+            "Code": "WS",
+            "value": "6,778",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "134",
+            "Country": "Tonga",
+            "Code": "TO",
+            "value": "6,648",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "135",
+            "Country": "Angola",
+            "Code": "AO",
+            "value": "6,539",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "136",
+            "Country": "Belize",
+            "Code": "BZ",
+            "value": "6,456",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "137",
+            "Country": "India",
+            "Code": "IN",
+            "value": "6,454",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "138",
+            "Country": "Cabo Verde",
+            "Code": "CV",
+            "value": "6,377",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "139",
+            "Country": "Djibouti",
+            "Code": "DJ",
+            "value": "5,782",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "140",
+            "Country": "West Bank and Gaza",
+            "value": "5,690",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "141",
+            "Country": "Ghana",
+            "Code": "GH",
+            "value": "5,596",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "142",
+            "Country": "Nicaragua",
+            "Code": "NI",
+            "value": "5,570",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "143",
+            "Country": "Cote d'Ivoire",
+            "Code": "CI",
+            "value": "5,458",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "144",
+            "Country": "Honduras",
+            "Code": "HN",
+            "value": "5,421",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "145",
+            "Country": "Mauritania",
+            "Code": "MR",
+            "value": "5,257",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "146",
+            "Country": "Nigeria",
+            "Code": "NG",
+            "value": "5,187",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "147",
+            "Country": "Bangladesh",
+            "Code": "BD",
+            "value": "5,083",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "148",
+            "Country": "Kyrgyzstan",
+            "Code": "KG",
+            "value": "4,965",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "149",
+            "Country": "Pakistan",
+            "Code": "PK",
+            "value": "4,877",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "150",
+            "Country": "Myanmar",
+            "Code": "MM",
+            "value": "4,794",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "151",
+            "Country": "Tuvalu",
+            "Code": "TV",
+            "value": "4,653",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "152",
+            "Country": "Kenya",
+            "Code": "KE",
+            "value": "4,452",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "153",
+            "Country": "Cambodia",
+            "Code": "KH",
+            "value": "4,422",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "154",
+            "Country": "Papua New Guinea",
+            "Code": "PG",
+            "value": "4,326",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "155",
+            "Country": "Sao Tome and Principe",
+            "Code": "ST",
+            "value": "4,274",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "156",
+            "Country": "Sudan",
+            "Code": "SD",
+            "value": "4,244",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "157",
+            "Country": "Marshall Islands",
+            "Code": "MH",
+            "value": "4,200",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "158",
+            "Country": "Nepal",
+            "Code": "NP",
+            "value": "4,009",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "159",
+            "Country": "Tajikistan",
+            "Code": "TJ",
+            "value": "3,858",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "160",
+            "Country": "Cameroon",
+            "Code": "CM",
+            "value": "3,773",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "161",
+            "Country": "Yemen Rep,",
+            "Code": "YE",
+            "value": "3,689",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "162",
+            "Country": "Congo Rep,",
+            "Code": "CG",
+            "value": "3,639",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "163",
+            "Country": "Micronesia Fed, Sts,",
+            "Code": "FM",
+            "value": "3,613",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "164",
+            "Country": "Benin",
+            "Code": "BJ",
+            "value": "3,506",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "165",
+            "Country": "Senegal",
+            "Code": "SN",
+            "value": "3,481",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "166",
+            "Country": "Zambia",
+            "Code": "ZM",
+            "value": "3,450",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "167",
+            "Country": "Timor-Leste",
+            "Code": "TL",
+            "value": "3,356",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "168",
+            "Country": "Comoros",
+            "Code": "KM",
+            "value": "3,313",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "169",
+            "Country": "Haiti",
+            "Code": "HT",
+            "value": "2,925",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "170",
+            "Country": "Vanuatu",
+            "Code": "VU",
+            "value": "2,915",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "171",
+            "Country": "Zimbabwe",
+            "Code": "ZW",
+            "value": "2,895",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "172",
+            "Country": "Guinea",
+            "Code": "GN",
+            "value": "2,818",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "173",
+            "Country": "Tanzania",
+            "Code": "TZ",
+            "value": "2,780",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "174",
+            "Country": "Solomon Islands",
+            "Code": "SB",
+            "value": "2,619",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "175",
+            "Country": "Ethiopia",
+            "Code": "ET",
+            "value": "2,423",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "176",
+            "Country": "Kiribati",
+            "Code": "KI",
+            "value": "2,418",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "177",
+            "Country": "Lesotho",
+            "Code": "LS",
+            "value": "2,405",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "178",
+            "Country": "Mali",
+            "Code": "ML",
+            "value": "2,339",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "179",
+            "Country": "Uganda",
+            "Code": "UG",
+            "value": "2,297",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "180",
+            "Country": "Burkina Faso",
+            "Code": "BF",
+            "value": "2,279",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "181",
+            "Country": "Gambia The",
+            "Code": "GM",
+            "value": "2,278",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "182",
+            "Country": "Togo",
+            "Code": "TG",
+            "value": "2,224",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "183",
+            "Country": "Rwanda",
+            "Code": "RW",
+            "value": "2,214",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "184",
+            "Country": "Afghanistan",
+            "Code": "AF",
+            "value": "2,088",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "185",
+            "Country": "Guinea-Bissau",
+            "Code": "GW",
+            "value": "1,949",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "186",
+            "Country": "Sierra Leone",
+            "Code": "SL",
+            "value": "1,739",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "187",
+            "Country": "Eritrea",
+            "Code": "ER",
+            "value": "1,626",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "188",
+            "Country": "Chad",
+            "Code": "TD",
+            "value": "1,603",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "189",
+            "Country": "Madagascar",
+            "Code": "MG",
+            "value": "1,593",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "190",
+            "Country": "Malawi",
+            "Code": "MW",
+            "value": "1,568",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "191",
+            "Country": "Liberia",
+            "Code": "LR",
+            "value": "1,428",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "192",
+            "Country": "Mozambique",
+            "Code": "MZ",
+            "value": "1,297",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "193",
+            "Country": "Niger",
+            "Code": "NE",
+            "value": "1,263",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "194",
+            "Country": "South Sudan",
+            "Code": "SS",
+            "value": "1,235",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "195",
+            "Country": "Congo Dem, Rep,",
+            "Code": "CD",
+            "value": "1,131",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "196",
+            "Country": "Central African Republic",
+            "Code": "CF",
+            "value": "980",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "197",
+            "Country": "Somalia",
+            "Code": "SO",
+            "value": "875",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "198",
+            "Country": "Burundi",
+            "Code": "BI",
+            "value": "771",
+            "Tier": "3",
+            "CPA": "19.34",
+            "NGR": "3.67",
+            "CR": "2.58%"
+        },
+        {
+            "id": "230",
+            "Country": "American Samoa",
+            "Code": "AS",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "231",
+            "Country": "Andorra",
+            "Code": "AD",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "232",
+            "Country": "Virgin Islands (U,S,)",
+            "Code": "VI",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "233",
+            "Country": "Liechtenstein",
+            "Code": "LI",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "234",
+            "Country": "Guam",
+            "Code": "GU",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "235",
+            "Country": "British Virgin Islands",
+            "Code": "VG",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "236",
+            "Country": "Korea Dem, People's Rep,",
+            "Code": "KP",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "237",
+            "Country": "Syrian Arab Republic",
+            "Code": "SY",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "238",
+            "Country": "New Caledonia",
+            "Code": "NC",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "239",
+            "Country": "Faroe Islands",
+            "Code": "FO",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "240",
+            "Country": "Isle of Man",
+            "Code": "IM",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "241",
+            "Country": "Northern Mariana Islands",
+            "Code": "MP",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "242",
+            "Country": "Monaco",
+            "Code": "MC",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "243",
+            "Country": "St, Martin (French part)",
+            "Code": "MF",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "244",
+            "Country": "French Polynesia",
+            "Code": "PF",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "245",
+            "Country": "Gibraltar",
+            "Code": "GI",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "246",
+            "Country": "Greenland",
+            "Code": "GL",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "247",
+            "Country": "Cuba",
+            "Code": "CU",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        },
+        {
+            "id": "248",
+            "Country": "Channel Islands",
+            "NGR": "3,134.00",
+            "CR": "0.00%"
+        }
+]
