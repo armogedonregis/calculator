@@ -60,26 +60,17 @@ const customStyles = {
 export const SelectCountry: React.FC<{
   options?: any;
   value?: any;
-  setValue?: any;
-  setVal?: any;
-}> = ({ options, value, setValue, setVal }) => {
+  changeHandler?: any;
+}> = ({ options, value, changeHandler }) => {
   
-  const changeHandler = (value: any) => {
-    setValue((value: any) => {
-      value
-    })
-    console.log(value)
-    setVal((value: any) => {
-      value
-    })
-  }
+  
 
   return (
     <Container>
       <Lab>
             Geo
         </Lab>
-     <Select styles={customStyles} options={options} value={value} onChange={changeHandler} />
+     <Select styles={customStyles} options={options} onChange={changeHandler} />
     </Container>
   );
 }

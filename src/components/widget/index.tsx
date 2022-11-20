@@ -21,17 +21,29 @@ ${tw`
 
 export const Widget: React.FC = () => {
 
+  interface ValueType {
+    value: string;
+    label: any;
+    cpa: number;
+    cr: number;
+    ngr: number;
+  }
 
-  const [value, setValue] = useState<any>({
+  const [value, setValue] = useState<ValueType>({
     value: '',
     label: '',
-    cpa: '',
-    rs: '',
-    cr: '',
-    ngr: '',
-    tf: '',
-    ap: '',
+    cpa: 0,
+    cr: 0,
+    ngr: 0,
   })
+
+  const changeHandler = (value: any) => {
+    setValue(
+      value
+    )
+    console.log(value)
+  }
+
   const options: any = Geo.map(item => {{
       return (
         {
@@ -43,11 +55,8 @@ export const Widget: React.FC = () => {
             </div>
           ),
           cpa: item.CPA,
-          rs: '40',
           cr: item.CR,
           ngr: item.NGR,
-          tf: '3',
-          ap: '13',
         }
       )
     }})
@@ -117,7 +126,7 @@ export const Widget: React.FC = () => {
           return 0.3;
         }
       }
-    let num1 = 0.86 / 100 * product * ValueFd();
+    let num1 = (val.cr != '' ? val.cr : value.cr) / 100 * product * ValueFd();
     let num = Math.floor(num1)
     return num;
   }
@@ -142,11 +151,11 @@ export const Widget: React.FC = () => {
     if (deal === 'CPA') {
       return val.cpa * fd
     } else if (deal === 'RevShare') {
-      return val.rs * val.ngr * fd * 5.44
+      return val.rs / 100 * (val.ngr != '' ? val.ngr : value.ngr) * fd * 5.44
     } else if (deal === 'Hybrid') {
-      return val.cpa * fd + val.rs / 100 * val.ngr * fd * 5.44
+      return val.cpa * fd + val.rs / 100 * (val.ngr != '' ? val.ngr : value.ngr) * fd * 5.44
     } else {
-      return val.cpa * fd
+      return (val.cpa != '' ? val.cpa : value.cpa) * fd
     }
   }
 
@@ -166,7 +175,6 @@ export const Widget: React.FC = () => {
     setRev(
       Revenue()
     )
-    console.log(Revenue())
   }
 
 
@@ -178,8 +186,7 @@ export const Widget: React.FC = () => {
           Handler={Handl}
           options={options}
           value={value}
-          setVal={setVal}
-          setValue={setValue}
+          changeHandler={changeHandler}
           valSlide={valSlide}
           HandleSlide={HandleSlide}
         />

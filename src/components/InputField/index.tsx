@@ -20,12 +20,11 @@ export const InputField: React.FC<{
   Handler?: any;
   options?: any;
   value?: any; 
-  setValue?: any;
-  setVal?: any;
+  changeHandler?: any;
   valSlide?: number;
   HandleSlide?: any;
 }> = ({
-   HandleChange, val, Handler, options, value, setValue, setVal,
+   HandleChange, val, Handler, options, value, changeHandler,
    valSlide, HandleSlide
 }) => {
 
@@ -35,8 +34,7 @@ export const InputField: React.FC<{
         <SelectCountry 
           options={options}
           value={value}
-          setValue={setValue}
-          setVal={setVal}
+          changeHandler={changeHandler}
         />
             <Select 
               nameLab={"CPA"}
@@ -81,7 +79,6 @@ export const InputField: React.FC<{
               val={val?.tf}
               onChange={HandleChange('tf')}
               name={"tf"}
-              meter={"$"} 
             />
             <Select 
               nameLab={"Average Position"}
