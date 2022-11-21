@@ -86,6 +86,13 @@ export const Widget: React.FC = () => {
   const [fd, setFd] = useState<number>(23);
   const [product, setProduct] = useState<number>(1);
   const [web, setWeb] = useState<number>(3);
+  const [result, setResult] = useState<any>({
+    rev: 0,
+    deal: 'RevShare',
+    fd: 23,
+    product: 1,
+    web: 3
+  });
 
   const HandleChange = (fieldName: number) => (fieldValue: any) => {
     setVal((prev: any) => ({
@@ -97,7 +104,7 @@ export const Widget: React.FC = () => {
 // Click on website
 
   const WebSum = (x: number) => {
-    let num1 = 15000 * 0.613 * (Math.pow(x, (-1.784)));
+    let num1 = val.tf * 0.613 * (Math.pow(x, (-1.784)));
     let num = Math.floor(num1);
     return num;
   };
@@ -159,40 +166,20 @@ export const Widget: React.FC = () => {
     }
   }
 
-  const func1 = async () => {
-    setWeb(
-      WebSum(val.ap)
-    );
-  };
-
-  const func2 = async () => {
-    setProduct(
-      ProductSum(web)
-    );
-  };
-
-  const func3 = async () => {
-    setFd(
-      FDSum()
-    );
-  };
-
-  const func4 = async () => {
-    setDeal(
-      DealType()
-    );
-  };
-
-  const func5 = async () => {
-    setRev(
-      Revenue()
-    );
-  };
-
-  const Handl = async () => {
-      return await Promise.all([
-        func1(), func2(), func3(), func4(), func5()
-      ]);
+  useEffect(() => {
+      setWeb(WebSum(val.ap))
+      setProduct(ProductSum(web))
+      setFd(FDSum())
+      setDeal(DealType())
+      setRev(Revenue())
+    }, [rev, deal, fd, product, web]);
+    
+  const Handl = () => {
+    setWeb(WebSum(val.ap))
+    setProduct(ProductSum(web))
+    setFd(FDSum())
+    setDeal(DealType())
+    setRev(Revenue())
   }
 
   return (
@@ -210,7 +197,7 @@ export const Widget: React.FC = () => {
         <Speedometer 
         rev={rev}
         deal={deal}
-        fd={fd}
+        fd={fd} 
         product={product}
         web={web}
         />

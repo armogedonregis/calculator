@@ -38,7 +38,6 @@ export const InputField: React.FC<{
         />
             <Select 
               nameLab={"CPA"}
-              place={"20 000"}
               message={"Cost per action"}
               val={val.cpa}
               onChange={HandleChange('cpa')}
@@ -47,7 +46,6 @@ export const InputField: React.FC<{
             />
             <Select 
               nameLab={"RS"}
-              place={"50"}
               message={"Revenue Share"}
               val={val?.rs}
               onChange={HandleChange('rs')}
@@ -56,7 +54,6 @@ export const InputField: React.FC<{
             />
             <Select 
               nameLab={"CR"}
-              place={"40"}
               message={"Conversion rate"}
               val={val?.cr}
               onChange={HandleChange('cr')}
@@ -65,7 +62,6 @@ export const InputField: React.FC<{
             />
             <Select 
               nameLab={"NGR"}
-              place={"1230"}
               message={"Net Gaming Revenue"}
               val={val?.ngr}
               onChange={HandleChange('ngr')}
@@ -74,7 +70,6 @@ export const InputField: React.FC<{
             />
             <Select 
               nameLab={"Total Frequency"}
-              place={"2"}
               message={"The total frequency is the value obtained by adding up all search frequencies."}
               val={val?.tf}
               onChange={HandleChange('tf')}
@@ -82,7 +77,6 @@ export const InputField: React.FC<{
             />
             <Select 
               nameLab={"Average Position"}
-              place={"15"}
               message={"A relative ranking of the position of your site on Google, where 1 is the topmost position, 2 is the next position, and so on."}
               val={val?.ap}
               onChange={HandleChange('ap')}

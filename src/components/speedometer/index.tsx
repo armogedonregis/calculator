@@ -61,6 +61,7 @@ export const Speedometer: React.FC<{
 }> = ({
   rev, deal, fd, product, web
 }) => {
+
   const num = rev != undefined ? rev : 100;
   const radius = 203;
   const percent = num;
@@ -70,9 +71,9 @@ export const Speedometer: React.FC<{
   const arc = circumference * (270 / 360);
   const dashArray = `${arc} ${circumference}`;
   const transform = `rotate(135, ${radius}, ${radius})`;
-  const transformArr = `rotate(${(percent * 270) / 200000}deg)`;
-  const percentNormalized = Math.min(Math.max(percent, 0), 200000);
-  const offset = arc - (percentNormalized / 200000) * arc;
+  const transformArr = `rotate(${(percent * 270) / 100000}deg)`;
+  const percentNormalized = Math.min(Math.max(percent, 0), 100000);
+  const offset = arc - (percentNormalized / 100000) * arc;
   
   return (
     <Container>
