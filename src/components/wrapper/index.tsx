@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   ${tw`
   lg:max-w-[1440px]
   w-screen
-  overflow-y-scroll
+//  overflow-y-scroll
   lg:px-[32px]
   px-[16px]
   mx-auto

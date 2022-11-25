@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-import { Button } from "../button";
 import { Card } from "../card";
 
 
@@ -58,6 +57,21 @@ ${tw`
 `}
 `;
 
+const Btn = styled.a`
+border-radius: 4px;
+${tw`
+    p-[12px 64px]
+    bg-neon-blue
+    text-blue-btn
+    font-RFExp
+    lg:text-xl
+    text-sm
+    hover:bg-neon-light
+    active:bg-neon-dark
+    duration-200
+`}
+`;
+
 export const Recommended: React.FC = () => {
 
   return (
@@ -74,7 +88,7 @@ export const Recommended: React.FC = () => {
         </CardContainer>
         <PostContainer>
             <PostDescr>Apply to the personal manager or to the SST Service</PostDescr>
-            <Button>Activate the product</Button>
+            <Btn href="https://t.me/alfa_sup" target="_blank">Activate the product</Btn>
         </PostContainer>
     </Container>
   );

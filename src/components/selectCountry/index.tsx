@@ -44,17 +44,45 @@ const customStyles = {
       display: 'none'
     }
   }),
-  control: (provided: any) => ({
+  control: (provided: any, { isFocused, isSelected }: any) => ({
+    ...provided,
+    background: 'rgba(255, 255, 255, 0.1)',
+    borderColor: isFocused ? '#71FBE4' : '#A79BB1',
+    backdropFilter: 'blur(6px)',
+    borderRadius: '4px',
+    '&:hover': {
+      borderColor: !isFocused && '#FFFFFF',
+    }
+  }),
+  input: (provided: any) => ({
     ...provided,
     color: 'white',
-    background:' rgba(255, 255, 255, 0.1)',
-    backdropFilter: 'blur(6px)',
-    borderRadius: '4px'
+    paddingLeft: '24px',
+  }),
+  placeholder: (provided: any) => ({
+    ...provided,
+    marginLeft: '24px',
   }),
   singleValue: (provided: any) => ({
     ...provided,
     color: 'white'
   }),
+  indicatorSeparator: (provided: any, { isFocused }: any) => ({
+    ...provided, 
+    margin: '0',
+    backgroundColor: isFocused ? '#71FBE4' : '#A79BB1',
+    '&:hover': {
+      backgroundColor: !isFocused && '#FFFFFF'
+    }
+  }),
+  indicatorContainer: (provided: any, { isFocused }: any) => ({
+    ...provided,
+    transform: isFocused ? 'rotate(180deg)' : 'rotate(0deg)',
+    color: isFocused ? '#71FBE4' : '#A79BB1',
+    '&:hover': {
+      color: !isFocused && '#FFFFFF'
+    },
+  })
 }
 
 export const SelectCountry: React.FC<{

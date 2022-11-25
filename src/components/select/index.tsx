@@ -77,6 +77,27 @@ ${tw`
 `}
 `;
 
+const TextHide = styled.span<{
+    small?: boolean;
+}>`
+${({ small }) => 
+small ? tw`w-full whitespace-nowrap` : tw`w-[20rem]`
+}
+${tw`
+    relative 
+    z-10 
+    left-[40px]
+    lg:left-[initial]
+    p-2
+    leading-none 
+    text-white 
+    font-bold 
+    rounded-[4px] 
+    bg-fiol
+    text-sm 
+`}
+`;
+
 export const Select: React.FC<{
     nameLab?: string;
     meter?: string;
@@ -87,7 +108,7 @@ export const Select: React.FC<{
     onChange?: any;
 }> = ({ nameLab, meter, 
     place, message, val, name, onChange }) => {
-
+        
   return (
     <Container>
         <Lab>
@@ -99,7 +120,7 @@ export const Select: React.FC<{
                 </g>
             </InfoIcon>
             <div className="absolute bottom-0 flex flex-col items-center hidden mb-6 group-hover:flex">
-			<span className="relative z-10 p-2 w-full text-sm leading-none text-white font-bold rounded-[4px] bg-fiol">{message}</span>
+			<TextHide small={message?.length != undefined && message?.length < 40 ? true : false}>{message}</TextHide>
 			<div className="w-3 h-3 -mt-2 rotate-45 bg-fiol"></div>
             </div>
 		</div>

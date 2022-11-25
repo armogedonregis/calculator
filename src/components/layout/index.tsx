@@ -10,7 +10,6 @@ type LayoutProps = {
 };
 
 const PageContainer = styled.div`
-background: linear-gradient(359.04deg, #170622 0.9%, #530975 26.01%, #5709A0 51.94%, #23053C 78.28%);
   ${tw`
     flex
     flex-col
@@ -51,7 +50,7 @@ export default function Layout({
         <PageContainer>
           <BgContainer />
           {children}
-          </PageContainer>
+        </PageContainer>
     </>
   );
 }

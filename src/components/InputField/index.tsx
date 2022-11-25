@@ -1,4 +1,3 @@
-import { Key } from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 import { Button } from "../button";
@@ -8,11 +7,13 @@ import { Slider } from "../slider";
 
 
 const Container = styled.div`
+@media(max-width: 1023px) {
+  margin-bottom: 32px;
+}
 ${tw`
-    mb-[32px]
+    flex flex-col
 `}
 `;
-
 
 export const InputField: React.FC<{
   HandleChange?: any;
@@ -37,6 +38,7 @@ export const InputField: React.FC<{
           changeHandler={changeHandler}
         />
             <Select 
+              place={'20000'}
               nameLab={"CPA"}
               message={"Cost per action"}
               val={val.cpa}
@@ -45,14 +47,16 @@ export const InputField: React.FC<{
               meter={"$"} 
             />
             <Select 
+              place={'50'}
               nameLab={"RS"}
               message={"Revenue Share"}
-              val={val?.rs}
+              val={val.rs}
               onChange={HandleChange('rs')}
               name={"rs"}
               meter={"%"} 
             />
             <Select 
+              place={'40'}
               nameLab={"CR"}
               message={"Conversion rate"}
               val={val?.cr}
@@ -61,6 +65,7 @@ export const InputField: React.FC<{
               meter={"%"} 
             />
             <Select 
+              place={'1230'}
               nameLab={"NGR"}
               message={"Net Gaming Revenue"}
               val={val?.ngr}
@@ -69,6 +74,7 @@ export const InputField: React.FC<{
               meter={"$"} 
             />
             <Select 
+              place={'2'}
               nameLab={"Total Frequency"}
               message={"The total frequency is the value obtained by adding up all search frequencies."}
               val={val?.tf}
@@ -76,6 +82,7 @@ export const InputField: React.FC<{
               name={"tf"}
             />
             <Select 
+              place={'15'}
               nameLab={"Average Position"}
               message={"A relative ranking of the position of your site on Google, where 1 is the topmost position, 2 is the next position, and so on."}
               val={val?.ap}
@@ -88,7 +95,7 @@ export const InputField: React.FC<{
         />
         <Button
           onClick={Handler}
-          className="block ml-auto">Calculate</Button>
+          className="lg:block lg:ml-auto">Calculate</Button>
     </Container>
   );
 }
