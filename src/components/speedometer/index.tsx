@@ -5,27 +5,59 @@ import tw from "twin.macro";
 const Container = styled.div`
 border: 4px solid #5C7EB3;
 border-radius: 20px;
+@media(min-width: 1000px) and (max-width: 1279px) {
+  margin-left: 20px;
+}
 ${tw`
-    p-[40px 30px 30px 30px]
-    lg:w-[736px]
+    pt-[40px]
+    xl:px-[30px]
+    px-[16px]
+    pb-[16px]
+    xl:w-[736px]
+    overflow-x-hidden
 `}
-@media(max-width: 1023px) {
+@media(min-width: 1024px) {
   svg {
-    margin: 0 auto;
+    margin-top: -100px;
+  }
+}
+@media(max-width: 350px) {
+  svg {
+    width: 370px;
+    margin-top: -190px;
+    margin-left: -60px;
+  }
+}
+@media(min-width: 360px) and (max-width: 1023px) {
+  svg {
+    margin-top: -170px;
+    width: 421px;
+    margin-left: -60px;
+  }
+}
+@media(min-width: 400px) and (max-width: 1023px) {
+  svg {
+    margin-left: -40px;
+  }
+}
+@media(min-width: 760px) {
+  svg {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 `;
 
 const TextContainer = styled.div`
 ${tw`
-  flex justify-center items-center
-  mt-[-100px]
+  flex justify-between lg:justify-center items-center
+  mt-[-150px] lg:mt-[-100px] lg:mb-[50px] mb-[8px]
 `}
 `;
 
 const Content = styled.div`
 ${tw`
-  mb-[30px]
+  
 `}
 `;
 
@@ -33,9 +65,11 @@ const Title = styled.h3`
 ${tw`
   text-white
   font-bold
-  text-xl
-  mr-[61px]
-  mb-[20px]
+  lg:text-xl
+  text-sm
+  lg:mr-[61px]
+  lg:mb-[20px]
+  mb-[16px]
 `}
 `;
 
@@ -43,11 +77,11 @@ const Text = styled.p<{
   post?: boolean;
 }>`
 ${({ post }) => 
-post ? tw`` : tw`mb-[20px]`
+post ? tw`` : tw`mb-[16px] lg:mb-[20px]`
 }
 ${tw`
   text-gray
-  text-xl
+  lg:text-xl text-sm
 `}
 `;
 
@@ -77,7 +111,7 @@ export const Speedometer: React.FC<{
   
   return (
     <Container>
-       <svg style={{marginTop: '-100px'}} width="605" height="605" viewBox="0 0 605 605" fill="none" xmlns="http://www.w3.org/2000/svg">
+       <svg width="605" height="605" viewBox="0 0 605 605" fill="none" xmlns="http://www.w3.org/2000/svg">
        <g style={{ transform: 'translate(100px, 100px)'}}>
           <circle cx={radius} cy={radius}
           fill="transparent" r={innerRadius}

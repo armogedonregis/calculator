@@ -14,10 +14,23 @@ ${tw`
     lg:justify-between
     lg:mb-[140px]
     mb-[24px]
+    relative
 `}
 `;
 
-
+const Img = styled.img<{
+  mob?: boolean;
+}>`
+${({ mob }) => 
+mob ? tw`lg:display[none] top-[1185px] right-[-20px]` :
+ tw`display[none] lg:block top-[310px] right-[-320px]`
+}
+${tw`
+  absolute z-[-1]
+  opacity-50 select-none
+  pointer-events-none
+`}
+`;
 
 export const Widget: React.FC = () => {
 
@@ -80,21 +93,15 @@ export const Widget: React.FC = () => {
   const HandleSlide = (e: { target: { value: number; }; }) => {
       setValSlide(e.target.value);
   };
-  
-  const [rev, setRev] = useState<number>();
+
+
+  const [rev, setRev] = useState<number>(20000);
   const [deal, setDeal] = useState<string>('RevShare');
   const [fd, setFd] = useState<number>(23);
-  const [product, setProduct] = useState<number>(1);
-  const [web, setWeb] = useState<number>(3);
-  const [result, setResult] = useState<any>({
-    rev: 0,
-    deal: 'RevShare',
-    fd: 23,
-    product: 1,
-    web: 3
-  });
+  const [product, setProduct] = useState<number>(23);
+  const [web, setWeb] = useState<number>(23);
 
-  const HandleChange = (fieldName: number) => (fieldValue: any) => {
+  const HandleChange = (fieldName: string) => (fieldValue: number) => {
     setVal((prev: any) => ({
       ...prev,
       [fieldName]: fieldValue
@@ -104,16 +111,15 @@ export const Widget: React.FC = () => {
 // Click on website
 
   const WebSum = (x: number) => {
-    let num1 = val.tf * 0.613 * (Math.pow(x, (-1.784)));
-    let num = Math.floor(num1);
-    return num;
+    let num = val.tf * 0.613 * (Math.pow(x, (-1.784)));
+    return Math.round(num);;
   };
 
   // Click on product
 
   const ProductSum = (x: number) => {
     let num = x * 0.6;
-    return num;
+    return Math.round(num);
   }
 
   // FD per month
@@ -134,7 +140,7 @@ export const Widget: React.FC = () => {
         }
       }
     let num1 = (val.cr != '' ? val.cr : value.cr) / 100 * product * ValueFd();
-    let num = Math.floor(num1)
+    let num = Math.round(num1)
     return num;
   }
 
@@ -156,22 +162,28 @@ export const Widget: React.FC = () => {
 
   const Revenue = () => {
     if (deal === 'CPA') {
-      return val.cpa * fd
+      const num1 = val.cpa * fd 
+      return Math.round(num1)
     } else if (deal === 'RevShare') {
-      return val.rs / 100 * (val.ngr != '' ? val.ngr : value.ngr) * fd * 5.44
+      const num2 = val.rs / 100 * (val.ngr != '' ? val.ngr : value.ngr) * fd * 5.44
+      return Math.round(num2)
     } else if (deal === 'Hybrid') {
-      return val.cpa * fd + val.rs / 100 * (val.ngr != '' ? val.ngr : value.ngr) * fd * 5.44
+      const num3 = val.cpa * fd + val.rs / 100 * (val.ngr != '' ? val.ngr : value.ngr) * fd * 5.44
+      return Math.round(num3)
     } else {
-      return (val.cpa != '' ? val.cpa : value.cpa) * fd
+      const num4 = (val.cpa != '' ? val.cpa : value.cpa) * fd
+      return Math.round(num4)
     }
   }
 
   useEffect(() => {
+    if(fd != 23) {
       setWeb(WebSum(val.ap))
       setProduct(ProductSum(web))
       setFd(FDSum())
       setDeal(DealType())
       setRev(Revenue())
+    }
     }, [rev, deal, fd, product, web]);
     
   const Handl = () => {
@@ -184,6 +196,7 @@ export const Widget: React.FC = () => {
 
   return (
     <Container>
+      
         <InputField
           HandleChange={HandleChange}
           val={val}
@@ -201,6 +214,8 @@ export const Widget: React.FC = () => {
         product={product}
         web={web}
         />
+        <Img src="./assets/images/grid-background.png" alt="" />
+        <Img mob src="./assets/images/grid-background_mob.png" alt="" />
     </Container>
   );
 }

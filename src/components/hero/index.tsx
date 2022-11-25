@@ -9,9 +9,14 @@ ${tw`
 `}
 `;
 
-const ImgBg = styled.img`
+const ImgBg = styled.img<{
+  mob?: boolean;
+}>`
+${({ mob }) => 
+mob ? tw`lg:display[none] top-[-20px] left-[-15px]` : tw`display[none] lg:block top-[-29px] left-[-320px]`
+}
 ${tw`
-  absolute top-[-29px] left-0 lg:left-[-320px]
+  absolute
   z-[-1]
 `}
 `;
@@ -40,6 +45,7 @@ export const Hero: React.FC = () => {
   return (
     <Container>
       <ImgBg src="assets/images/bg_plus.png" alt="" />
+      <ImgBg mob src="assets/images/bg_plus_mob.png" alt="" />
         <Title>potential assessment <span className="text-neon">service</span></Title>
         <PostTitle>A service is something that the public needs, such as transport, communications facilities, hospitals,<br /> or energy supplies, which is provided in a planned and organized way by the government.</PostTitle>
     </Container>
