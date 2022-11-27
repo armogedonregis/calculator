@@ -38,7 +38,7 @@ export const InputField: React.FC<{
           changeHandler={changeHandler}
         />
             <Select 
-              place={'20000'}
+              place={'20 000'}
               nameLab={"CPA"}
               message={"Cost per action"}
               val={val.cpa}

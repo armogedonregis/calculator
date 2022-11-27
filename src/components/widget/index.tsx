@@ -57,6 +57,24 @@ export const Widget: React.FC = () => {
     console.log(value)
   }
 
+  const NgrGeo = (x: number, y: number, z: number) => {
+    let num = x * Math.exp(y * z)
+    return num;
+  }
+const [dataResponse, setdataResponse] = useState();
+  useEffect(() => {
+    async function getPageData() {
+      const apiUrl = 'http://localhost:3000/api/getdata';
+      const res = await fetch(apiUrl);
+      const response: any = await res.json();
+      setdataResponse(response.results)
+      console.log(response.results)
+      console.log(dataResponse)
+    }
+    getPageData();
+  }, [])
+
+  
   const options: any = Geo.map(item => {{
       return (
         {

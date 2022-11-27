@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import tw from "twin.macro";
-import React, { useState, useMemo } from 'react';
-import Select from 'react-select';
-import countryList from 'react-select-country-list';
-import Geo from '../../data/geo.json';
+import React from 'react';
+import dynamic from 'next/dynamic'
 
 const Container = styled.div`
 ${tw`
@@ -57,11 +55,11 @@ const customStyles = {
   input: (provided: any) => ({
     ...provided,
     color: 'white',
-    paddingLeft: '24px',
+    paddingLeft: '12px',
   }),
   placeholder: (provided: any) => ({
     ...provided,
-    marginLeft: '24px',
+    marginLeft: '12px',
   }),
   singleValue: (provided: any) => ({
     ...provided,
@@ -84,6 +82,8 @@ const customStyles = {
     },
   })
 }
+
+const Select = dynamic(() => import('react-select'), { ssr: false })
 
 export const SelectCountry: React.FC<{
   options?: any;

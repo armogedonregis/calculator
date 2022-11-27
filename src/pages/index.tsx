@@ -8,6 +8,7 @@ import { Recommended } from "../components/recommended";
 import { Service } from "../components/service";
 import { Widget } from "../components/widget";
 import { Wrapper } from "../components/wrapper";
+import { signIn } from "next-auth/react";
 
 const BgGrad = styled.div`
 background: linear-gradient(359.04deg, #170622 0.9%, #530975 26.01%, #5709A0 51.94%, #23053C 78.28%) no-repeat;
@@ -27,6 +28,9 @@ export default function Home() {
       <BgGrad />
       <Wrapper>
         <Navbar />
+        <button onClick={() => {
+          signIn()
+        }}>Login</button>
         <main>
             <Hero />
             <Widget />
